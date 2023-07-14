@@ -28,8 +28,33 @@ add.addEventListener('click',()=>{
     let a = (num1.value)+(num2.value)
     console.log(a.value)
     ans.innerHTML=a
-
-
     })
 
-sub.addEventListener()
+sub.addEventListener('click',()=>{
+    console.log(num1.value)
+    console.log(num2.value)
+    let a = (num1.value)-(num2.value)
+    console.log(a.value)
+    ans.innerHTML=a
+    })
+
+div.addEventListener('click',()=>{
+    
+    console.log(num1.value)
+    console.log(num2.value)
+    let a = (num1.value)/(num2.value)
+    console.log(a.value)
+    ans.innerHTML=a
+        
+        
+            })
+ mult.addEventListener('click',()=>{
+    
+        console.log(num1.value)
+        console.log(num2.value)
+        let a = (num1.value)*(num2.value)
+        console.log(a.value)
+        ans.innerHTML=a
+            
+            
+        })
