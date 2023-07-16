@@ -8,12 +8,13 @@
 </head>
 <body>
     <div class="app">
-        <!-- <form action="" method="get" class="inputs"> -->
-            <input type="text" name="" id="first-number" placeholder="Enter first number">
-            <input type="number" name="" id="second-number" placeholder="Enter second number">  
-            <p> <span id="answer">ANS</span></p>
-           
-
+            <div class="inputs">
+                <label for="first-number">First Number</label>
+                <input value="0" type="number" name="" id="first-number" placeholder="Enter first number">
+                <label for="second-number">Second Number</label>
+                <input value="0" type="number" name="" id="second-number" placeholder="Enter second number">  
+            </div>
+            <p> The Answer is: <span id="answer"></span></p>
             <button id="btn-add">ADD</button>
             <button id="btn-sub">SUBSTRUCT</button>
             <button id="btn-Mult">MULTIPLY</button>

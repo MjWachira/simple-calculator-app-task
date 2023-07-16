@@ -1,6 +1,22 @@
+body{
+    background-color: gray;
+}
 .app{
     display: flex;
     flex-direction: column;
     width: 200px;
-    /* margin: auto; */
+    margin: auto;
+    background-color: aquamarine;
+    height: 300px;
+    border: solid ;
+
+}
+.app button{
+    width: 100px;
+    margin: auto;
+}
+.inputs{
+    display: flex;
+    flex-direction: column;
+    margin: auto;
 }

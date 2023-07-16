@@ -4,57 +4,38 @@ let num2=document.getElementById('second-number')
 let ans=document.getElementById('answer')
 let add=document.getElementById('btn-add')
 let sub=document.getElementById('btn-sub')
-let mult=document.getElementById('btn-mult')
+let mult=document.getElementById('btn-Mult')
 let divi=document.getElementById('btn-div')
 
 
 
-// function getNumbers(){
-//     var num1=document.getElementById('first-number').value
-//     var num2=document.getElementById('second-number').value
-// }
-
-
-// num1=nu
-// // form.addEventListener('submit', (e)=>{
-
-// //         e.preventault();})
-
-
 add.addEventListener('click',()=>{
-    
-    console.log(num1.value)
-    console.log(num2.value)
-    let a = (num1.value)+(num2.value)
-    console.log(a.value)
-    ans.innerHTML=a
-    })
+    vnum1=num1.value
+    vnum2=num2.value
+    sum=parseFloat(vnum1)+ parseFloat(vnum2)
+    console.log(sum)
+    ans.innerHTML=sum    
+})
 
 sub.addEventListener('click',()=>{
-    console.log(num1.value)
-    console.log(num2.value)
-    let a = (num1.value)-(num2.value)
-    console.log(a.value)
-    ans.innerHTML=a
-    })
+    vnum1=num1.value
+    vnum2=num2.value
+    sub=parseFloat(vnum1)- parseFloat(vnum2)
+    console.log(sub)
+    ans.innerHTML=sub
+})
 
-div.addEventListener('click',()=>{
-    
-    console.log(num1.value)
-    console.log(num2.value)
-    let a = (num1.value)/(num2.value)
-    console.log(a.value)
-    ans.innerHTML=a
-        
-        
-            })
+divi.addEventListener('click',()=>{
+    vnum1=num1.value
+    vnum2=num2.value
+    div=parseFloat(vnum1)/parseFloat(vnum2)
+    console.log(div)
+    ans.innerHTML=div
+})
  mult.addEventListener('click',()=>{
-    
-        console.log(num1.value)
-        console.log(num2.value)
-        let a = (num1.value)*(num2.value)
-        console.log(a.value)
-        ans.innerHTML=a
-            
-            
-        })
+    vnum1=num1.value
+    vnum2=num2.value
+    multi=parseFloat(vnum1)*parseFloat(vnum2)
+    console.log(multi)
+    ans.innerHTML=multi 
+})
